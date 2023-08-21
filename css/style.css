@@ -1,0 +1,164 @@
+:root{
+    --bs-font-cabecalho: "Galindo";
+    --bs-font-principal: "Alike Angular";
+    --bs-font-secundaria: "Alike" ;
+}
+
+.bg-primary-color{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-secondary-color{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.primary-color{
+    color: #ffff;
+}
+
+.secondary-color{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.tertiary-color{
+    color: rgba(235, 163, 61, 1);
+}
+
+/*Navbar*/
+
+#navbar{
+    border-bottom: 1px solid #050505;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 1em;
+}
+
+#navbar a{
+    font-family: var(--bs-font-cabecalho);
+}
+
+#navbar a:hover{
+    color: #ffff;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+#navbar span{
+    padding-left: 300px;
+    font-family: var(--bs-font-cabecalho);
+}
+
+#navbar-items .navbar-nav{
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+main{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#info1 p{
+    font-family: var(--bs-font-principal);
+}
+
+#info2{
+    margin-top: 1em;
+    height: 50%;
+}
+
+#info2 img{
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+#info2 p{
+    position: relative;
+    bottom: 400px;
+    padding-left: 70px;
+    padding-right:70px;
+    font-family: var(--bs-font-principal);
+}
+#destaques{
+    margin-top: 1em;
+}
+
+#destaques h3{
+    font-family: var(--bs-font-secundaria);
+}
+
+#destaques img{
+    height: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#destaques .btn{
+    position: relative;
+    bottom: 60px;
+    font-family: var(--bs-font-secundaria);
+}
+
+/*Carousel*/
+
+#carouselExampleCaptions .carousel-iner, #carouselExampleCaptions .carousel-item{
+    height: 80vh;
+}
+
+#carouselExampleCaptions .carousel-caption{
+    bottom: 2em;
+    color: #ffff;
+}
+
+#carouselExampleCaptions .carousel-caption p{
+    font-size: 1.2em;
+    text-shadow: #050505 1px 1px;
+}
+
+#carouselExampleCaptions .carousel-caption h5{
+    font-size: 2.5em;
+    text-shadow: #000 .8px .8px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    color: #111;
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #ffff;
+    opacity: .8;
+}
+
+.carousel-indicators .active{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+#posts img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* Footer*/
+
+#links img{
+    width: 20px;
+    margin: 10px;
+}
+#footer{
+    padding-top: 5em;
+}
